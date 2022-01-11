@@ -35,7 +35,7 @@
                         <artifact>kg.apc:jmeter-plugins-tst:2.5</artifact>
                         <artifact>com.blazemeter:jmeter-plugins-random-csv-data-set:0.7</artifact>
                         <artifact>com.blazemeter:jmeter-parallel:0.11</artifact>
-                        <artifact>io.github.kolesnikovm:jmeter-prometheus-listener:2.2.0</artifact>
+                        <artifact>io.github.kolesnikovm:jmeter-prometheus-listener:2.3.0</artifact>
                     </jmeterExtensions>
                     <testPlanLibraries>
                         <artifact>com.ibm.mq:com.ibm.mq.allclient:9.2.2.0</artifact>

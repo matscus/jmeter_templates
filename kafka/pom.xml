@@ -14,7 +14,7 @@
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
-                <version>3.4.0</version>
+                <version>3.5.0</version>
                 <executions>
                     <execution>
                         <id>configuration</id>
@@ -35,11 +35,10 @@
                         <artifact>kg.apc:jmeter-plugins-tst:2.5</artifact>
                         <artifact>com.blazemeter:jmeter-plugins-random-csv-data-set:0.7</artifact>
                         <artifact>com.blazemeter:jmeter-parallel:0.11</artifact>
-                        <artifact>io.github.kolesnikovm:jmeter-prometheus-listener:2.2.0</artifact>
+                        <artifact>io.github.kolesnikovm:jmeter-prometheus-listener:2.3.0</artifact>
                     </jmeterExtensions>
                     <testPlanLibraries>
                         <artifact>org.apache.kafka:kafka-clients:2.8.0</artifact>
-                        <artifact>com.networknt:kafka-common:2.0.18</artifact>
                     </testPlanLibraries>
                      <jMeterProcessJVMSettings>
                         <xms>512</xms>
